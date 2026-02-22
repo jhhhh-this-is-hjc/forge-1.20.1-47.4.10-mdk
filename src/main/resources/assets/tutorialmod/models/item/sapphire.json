@@ -1,0 +1,6 @@
+{
+  "parent": "item/gnerated",
+  "textures": {
+    "layer0": "tutorial:item/sapphire"
+  }
+}
