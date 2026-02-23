@@ -2,6 +2,7 @@ package net.jhhhh.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.jhhhh.tutorialmod.item.ModItems;
+import net.jhhhh.tutorialmod.item.ModeCreativeModTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +29,7 @@ public class TutorialMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModeCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -47,6 +49,7 @@ public class TutorialMod
     {
         if( event.getTabKey() == CreativeModeTabs.INGREDIENTS ) {
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPHHIRE);
         }
     }
 

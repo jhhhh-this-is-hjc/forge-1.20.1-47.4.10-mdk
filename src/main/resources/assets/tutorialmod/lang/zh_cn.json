@@ -1,3 +1,6 @@
 {
-  "item.tutorialmod.sapphire": "蓝宝石"
+  "item.tutorialmod.sapphire": "蓝宝石",
+  "item.tutorialmod.raw_sapphire": "未炼制的蓝宝石",
+
+  "creativetab.tutorial_tab": "测试模组"
 }
