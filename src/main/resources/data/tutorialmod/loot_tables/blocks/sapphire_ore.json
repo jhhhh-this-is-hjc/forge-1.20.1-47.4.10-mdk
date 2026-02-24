@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:sapphire_ore"
+              "name": "tutorialmod:sapphire_ore"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:raw_sapphire"
+              "name": "tutorialmod:raw_sapphire"
             }
           ]
         }
