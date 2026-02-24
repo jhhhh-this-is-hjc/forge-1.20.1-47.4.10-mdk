@@ -5,5 +5,10 @@
   "block.tutorialmod.sapphire_block": "蓝宝石块",
   "block.tutorialmod.raw_sapphire_block": "未炼制的蓝宝石块",
 
+  "block.tutorialmod.sapphire_ore": "蓝宝石矿石",
+  "block.tutorialmod.deepslate_sapphire_ore": "深层蓝宝石矿石",
+  "block.tutorialmod.end_stone_sapphire_ore": "末地蓝宝石矿石",
+  "block.tutorialmod.nether_sapphire_ore": "下界蓝宝石矿石",
+
   "creativetab.tutorial_tab": "测试模组"
 }
