@@ -1,6 +1,7 @@
 package net.jhhhh.tutorialmod.item;
 
 import net.jhhhh.tutorialmod.TutorialMod;
+import net.jhhhh.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -16,6 +17,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()) );
     public static final RegistryObject<Item> RAW_SAPHHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()) );
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)) );
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
