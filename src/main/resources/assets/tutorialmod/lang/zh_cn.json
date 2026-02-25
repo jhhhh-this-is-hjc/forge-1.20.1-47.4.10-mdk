@@ -12,5 +12,12 @@
   "block.tutorialmod.end_stone_sapphire_ore": "末地蓝宝石矿石",
   "block.tutorialmod.nether_sapphire_ore": "下界蓝宝石矿石",
 
-  "creativetab.tutorial_tab": "测试模组"
+  "creativetab.tutorial_tab": "测试模组",
+
+
+
+
+
+  "message.tutorialmod.found_ore": "在 (%2$s, %3$s, %4$s) 发现了 %1$s",
+  "message.tutorialmod.no_valuables": "未发现有价值的矿石"
 }

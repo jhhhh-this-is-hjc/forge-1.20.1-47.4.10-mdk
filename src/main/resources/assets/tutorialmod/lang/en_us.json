@@ -12,5 +12,11 @@
   "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
 
-  "creativetab.tutorial_tab": "Sapphire Tutorial"
+  "creativetab.tutorial_tab": "Sapphire Tutorial",
+
+
+
+
+  "message.tutorialmod.found_ore": "Found %s at (%s, %s, %s)",
+  "message.tutorialmod.no_valuables": "No Valuables Found"
 }

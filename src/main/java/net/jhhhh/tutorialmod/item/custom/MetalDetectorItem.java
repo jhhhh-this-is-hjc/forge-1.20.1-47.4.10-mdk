@@ -46,7 +46,7 @@ public class MetalDetectorItem extends Item {
             }
 
             if(!foundBlock) {
-                player.sendSystemMessage(Component.literal("No Valuables Found"));
+                player.sendSystemMessage(Component.translatable("message.tutorialmod.no_valuables"));
             }
 
             player.getCooldowns().addCooldown(this, 20);
@@ -59,8 +59,12 @@ public class MetalDetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found "+ I18n.get(block.getDescriptionId()) + "at" +
-                "(" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")" ));
+        player.sendSystemMessage(Component.translatable("message.tutorialmod.found_ore",
+                I18n.get(block.getDescriptionId()),
+                blockPos.getX(),
+                blockPos.getY(),
+                blockPos.getZ()
+        ));
     }
 
     private boolean isValuableBlock(BlockState state) {
