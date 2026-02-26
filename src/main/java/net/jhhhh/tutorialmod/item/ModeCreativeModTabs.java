@@ -23,6 +23,7 @@ public class ModeCreativeModTabs {
                         output.accept(ModItems.RAW_SAPHHIRE.get());
 
                         output.accept(ModItems.STRAWBERRY.get());
+                        output.accept(ModItems.PINE_CONE.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
 

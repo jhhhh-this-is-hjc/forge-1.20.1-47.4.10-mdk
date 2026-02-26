@@ -21,7 +21,8 @@
 
 
 
-
+  "tooltip.tutorialmod.metal_detector": "探测矿物",
+  "tooltip.tutorialmod.sound_block": "右键播放声音",
 
   "message.tutorialmod.found_ore": "在 (%2$s, %3$s, %4$s) 发现了 %1$s",
   "message.tutorialmod.no_valuables": "未发现有价值的矿石"

@@ -20,7 +20,8 @@
   "creativetab.tutorial_tab": "Sapphire Tutorial",
 
 
-
+  "tooltip.tutorialmod.metal_detector": "Finds valuable ores",
+  "tooltip.tutorialmod.sound_block": "Makes sounds when right clicked",
 
   "message.tutorialmod.found_ore": "Found %s at (%s, %s, %s)",
   "message.tutorialmod.no_valuables": "No Valuables Found"
