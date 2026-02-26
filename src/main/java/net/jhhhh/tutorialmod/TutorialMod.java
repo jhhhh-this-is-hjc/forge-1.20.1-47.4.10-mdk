@@ -51,7 +51,7 @@ public class TutorialMod
     {
         if( event.getTabKey() == CreativeModeTabs.INGREDIENTS ) {
             event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPHHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
     }
 

@@ -20,7 +20,7 @@ public class ModeCreativeModTabs {
                     .displayItems( (itemDisplayParameters, output) -> {
 
                         output.accept(ModItems.SAPPHIRE.get());
-                        output.accept(ModItems.RAW_SAPHHIRE.get());
+                        output.accept(ModItems.RAW_SAPPHIRE.get());
 
                         output.accept(ModItems.STRAWBERRY.get());
                         output.accept(ModItems.PINE_CONE.get());
