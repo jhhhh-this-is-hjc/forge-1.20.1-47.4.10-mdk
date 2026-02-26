@@ -1,6 +1,7 @@
 package net.jhhhh.tutorialmod.item;
 
 import net.jhhhh.tutorialmod.TutorialMod;
+import net.jhhhh.tutorialmod.item.custom.FuelItem;
 import net.jhhhh.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,9 @@ public class ModItems {
             () -> new MetalDetectorItem(new Item.Properties().durability(100)) );
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFood.STRAWBERRY)) );
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties().food(ModFood.PINE_CONE), 400 ));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
