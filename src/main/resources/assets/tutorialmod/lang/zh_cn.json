@@ -4,8 +4,7 @@
 
   "item.tutorialmod.metal_detector": "矿物探测器",
   "item.tutorialmod.strawberry": "草莓",
-  "item.tutorialmod.pine_cone": "橡果",
-
+  "item.tutorialmod.pine_cone": "松果",
 
   "block.tutorialmod.sapphire_block": "蓝宝石块",
   "block.tutorialmod.raw_sapphire_block": "未炼制的蓝宝石块",
@@ -17,9 +16,17 @@
 
   "block.tutorialmod.sound_block": "声音方块",
 
-  "creativetab.tutorial_tab": "测试模组",
+  "block.tutorialmod.sapphire_stairs": "蓝宝石楼梯",
+  "block.tutorialmod.sapphire_slab": "蓝宝石台阶",
+  "block.tutorialmod.sapphire_button": "蓝宝石按钮",
+  "block.tutorialmod.sapphire_pressure_plate": "蓝宝石压力板",
+  "block.tutorialmod.sapphire_fence": "蓝宝石栅栏",
+  "block.tutorialmod.sapphire_fence_gate": "蓝宝石栅栏门",
+  "block.tutorialmod.sapphire_wall": "蓝宝石墙",
+  "block.tutorialmod.sapphire_door": "蓝宝石门",
+  "block.tutorialmod.sapphire_trapdoor": "蓝宝石活板门",
 
-
+  "creativetab.tutorial_tab": "教程模组",
 
   "tooltip.tutorialmod.metal_detector": "探测矿物",
   "tooltip.tutorialmod.sound_block": "右键播放声音",
