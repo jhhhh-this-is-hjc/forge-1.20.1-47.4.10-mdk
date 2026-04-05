@@ -1,4 +1,4 @@
-{
+﻿{
   "variants": {
     "facing=east,half=bottom,open=false": {
       "model": "tutorialmod:block/sapphire_trapdoor_bottom",

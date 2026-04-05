@@ -1,4 +1,4 @@
-{
+﻿{
   "parent": "minecraft:block/template_fence_gate",
   "textures": {
     "texture": "tutorialmod:block/sapphire_block"

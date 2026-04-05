@@ -1,4 +1,4 @@
-{
+﻿{
   "variants": {
     "facing=east,half=bottom,shape=inner_left": {
       "model": "tutorialmod:block/sapphire_stairs_inner",
